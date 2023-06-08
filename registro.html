@@ -12,45 +12,44 @@
 <body>
     <div class="container">
         <!--MENÚ-->
-        <div class="container-fluid bg-dark fixed-top">
-            <div class="container mb-2">
-                <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-                    <div class="container-fluid">
-                      <a class="navbar-brand" href="#" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;"><img src="images/rockfm.png" height="50px" width="50px"> EL RETORNO DEL ROCK</a>
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                          <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="registro.html">Registro</a>
-                          </li>
-                          <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Bandas
-                            </a>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="muse.html">Muse</a></li>
-                              <li><a class="dropdown-item" href="theprettyreckless.html">The Pretty Reckless</a></li>
-                              <li><a class="dropdown-item" href="halestorm.html">Halestorm</a></li>
-                              <li><a class="dropdown-item" href="paramore.html">Paramore</a></li>
-                            </ul>
-                          </li>
-                        </ul>
-                        <form class="d-flex" role="search">
-                          <input class="form-control me-2" type="search" placeholder="Escriba aquí su consulta" aria-label="Search">
-                          <button class="btn btn-outline-light" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                          </svg></button>
-                        </form>
-                      </div>
+        <div class="container-fluid bg-warning fixed-top">
+          <div class="container">
+              <nav class="navbar navbar-expand-lg bg-warning navbar-light">
+                  <div class="container-fluid">
+                    <a class="navbar-brand" href="#" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;"><img src="images/index/cake-logo.png" height="50px" width="50px"> JENNIFER'S MAGIC CAKES</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="registro.html">Registro</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Catálogo
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="usual-cakes-catalog.html">Las más populares</a></li>
+                            <li><a class="dropdown-item" href="specials-cakes-catalog.html">Días festivos</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                      <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                        </svg></button>
+                      </form>
                     </div>
-                  </nav>
-            </div>
+                  </div>
+                </nav>
           </div>
+      </div>
+
          <!--FORMULARIO DE REGISTRO-->
          <div class="container mt-5 pt-5">
             <div class="row mt-2 pt-3 justify-content-center mb-3">
@@ -60,11 +59,11 @@
                     <form action="">
                       <div class="mb-3">
                         <label for="nombre" class="form-label">Nombre</label>
-                        <input type="text" class="form-control" id="nombre" placeholder="José">
+                        <input type="text" class="form-control" id="nombre" placeholder="Name">
                     </div>
                     <div class="mb-3">
                         <label for="apellidos" class="form-label">Apellidos</label>
-                        <input type="text" class="form-control" id="apellidos" placeholder="Palomino Ochoa">
+                        <input type="text" class="form-control" id="apellidos" placeholder="Last name">
                     </div>
                     <div class="mb-3">
                         <label for="correo" class="form-label">Cuenta de correo</label>
@@ -74,8 +73,8 @@
                         <label for="comentarios" class="form-label">Comentarios</label>
                         <textarea class="form-control" id="comentarios" rows="3"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-dark">Enviar</button>
-                    <button type="reset" class="btn btn-dark">Reset</button>
+                    <button type="submit" class="btn btn-warning">Enviar</button>
+                    <button type="reset" class="btn btn-warning">Borrar</button>
                     </form>
                 </div>
             </div>

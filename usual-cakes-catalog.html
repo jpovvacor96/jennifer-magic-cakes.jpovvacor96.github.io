@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <title>Popular cakes</title>
+</head>
+<body>
+    <div class="container">
+       <!--MENÚ-->
+       <div class="container-fluid bg-warning fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-warning navbar-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;"><img src="images/index/cake-logo.png" height="50px" width="50px"> JENNIFER'S MAGIC CAKES</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="registro.html">Registro</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Catálogo
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="usual-cakes-catalog.html">Las más populares</a></li>
+                          <li><a class="dropdown-item" href="specials-cakes-catalog.html">Días festivos</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                      <button class="btn btn-outline-light" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                      </svg></button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </div>
+    </div>
+    
+    <!--CARROUSEL-->
+    <div class="container p-0 mt-5">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="3000">
+                <img src="images/muse/foto1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/muse/wallpaperflare.com_wallpaper (copia).jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/muse/wallpaperflare.com_wallpaper(1).jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+
+    <div class="container border-dark border-top border-bottom p-3 mt-5 border-dark justify-content-center d-flex">
+      <h3>NUESTRAS TARTAS MÁS POPULARES</h3>
+    </div>
+
+    <!--FILA QUE CONTIENE LAS CARDS-->
+    <div class="container mt-5">
+        <div class="row mt-2 justify-content-center">
+          <!--CARD-->
+          <div class="col-12 col-sm-6 col-md-4 text-center">
+              <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="images/popular/birthday-cake.jpg" alt="Card image cap" width="10px">
+                  <div class="card-body">
+                    <h5 class="card-title">Fiesta de cumpleaños (niños)</h5>
+                    <p class="card-text">Dibuja en la cara de los más pequeños una sonrisa de felicidad en su día especial con nuestras tartas infantiles de cumpleaños</p>
+                    <a href="" class="btn btn-warning">26€</a>
+                  </div>
+              </div>
+          </div>
+          <!--CARD-->
+          <div class="col-12 col-sm-6 col-md-4 text-center mb-3">
+              <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="images/popular/comunion-cake.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Primera comunión</h5>
+                    <p class="card-text">En un momento tan especial como la primera comunión siempre es buena idea darle un toque dulce. ¿Qué mejor opción que una tarta?</p>
+                    <a href="" class="btn btn-warning">50€</a>
+                  </div>
+              </div>
+          </div>
+          <!--CARD-->
+          <div class="col-12 col-sm-6 col-md-4 mb-3 text-center">
+              <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="images/popular/baptism-cake.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Bautizos</h5>
+                    <p class="card-text">Un momento que jamás se olvida en la vida de una pareja es el bautizo de sus hijos. No puede faltar el dulce en esta ocasión tan especial</p>
+                    <a href="" class="btn btn-warning">45€</a>
+                  </div>
+              </div>
+          </div>
+          <!--CARD-->
+          <div class="col-12 col-sm-6 col-md-4 text-center">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="images/popular/baby-shower-cake.jpeg" alt="Card image cap" width="10px">
+                <div class="card-body">
+                  <h5 class="card-title">Baby Shower Cakes</h5>
+                  <p class="card-text">¿Tu bebé empieza a dar los primeros pasos? Celébralo con nuestras deliciosas tartas</p>
+                  <a href="" class="btn btn-warning">45€</a>
+                </div>
+            </div>
+          </div>
+          <!--CARD-->
+          <div class="col-12 col-sm-6 col-md-4 text-center">
+              <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="images/popular/couple-anniversary-cake.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Aniversario de parejas</h5>
+                    <p class="card-text">¿Olvidaste el aniversario con tu pareja? Cómprale una buena tarta para hacerla feliz y pasar un día inolvidable</p>
+                    <a href="" class="btn btn-warning">30€</a>
+                  </div>
+              </div>
+          </div>
+          <!--CARD-->
+          <div class="col-12 col-sm-6 col-md-4 mb-3 text-center">
+              <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="images/popular/opening-business-cake.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Apertura de negocios</h5>
+                    <p class="card-text">¿Vas a crear una empresa? No hay mejor forma de celebrarlo que comiendo una deliciosa tarta casera</p>
+                    <a href="" class="btn btn-warning">44€</a>
+                  </div>
+              </div>
+          </div>
+          <!--CARD-->
+          <div class="col-12 col-sm-6 col-md-4 text-center">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="images/popular/divorce-cake.jpg" alt="Card image cap" width="10px">
+                <div class="card-body">
+                  <h5 class="card-title">Separaciones</h5>
+                  <p class="card-text">Una separación puede ser algo traumático... ¡o todo lo contrario! ¡Celébralo con nuestras tartas!</p>
+                  <a href="" class="btn btn-warning">50€</a>
+                </div>
+            </div>
+          </div>
+          <!--CARD-->
+          <div class="col-12 col-sm-6 col-md-4 text-center">
+              <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="images/popular/company-anniversary-cake.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Aniversarios de empresa</h5>
+                    <p class="card-text">¿Tu empresa va viento en popa? ¿No dejas de cosechar buenos éxitos, ventas y clientes nuevos? Celébralo con una tartita :)</p>
+                    <a href="" class="btn btn-warning">44€</a>
+                  </div>
+              </div>
+          </div>
+          <!--CARD-->
+          <div class="col-12 col-sm-6 col-md-4 mb-3 text-center">
+              <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="images/popular/birthday-adult-cake.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Fiesta de cumpleaños (adultos)</h5>
+                    <p class="card-text">¡Ser adulto no es lo contrario a la diversión! ¡Date un capricho y celebra ser más viejo con una pedazo de tarta casera!</p>
+                    <a href="" class="btn btn-warning">35€</a>
+                  </div>
+              </div>
+          </div>
+          <!--CARD-->
+          <div class="col-12 col-sm-6 col-md-4 text-center">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="images/popular/wedding-cake.jpg" alt="Card image cap" width="10px">
+                <div class="card-body">
+                  <h5 class="card-title">Bodas</h5>
+                  <p class="card-text">No puede faltar una tarta en un momento tan especial... ¡Sería un crimen!</p>
+                  <a href="" class="btn btn-warning">100€</a>
+                </div>
+            </div>
+          </div>
+          <!--CARD-->
+          <div class="col-12 col-sm-6 col-md-4 text-center">
+              <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="images/popular/bachelor-cake.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Despedida de soltero</h5>
+                    <p class="card-text">¡Se acabó la libertad! Compensa este momento tan triste con una deliciosa tarta :)</p>
+                    <a href="" class="btn btn-warning">42€</a>
+                  </div>
+              </div>
+          </div>
+          <!--CARD-->
+          <div class="col-12 col-sm-6 col-md-4 text-center">
+              <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="images/popular/sport-celebration-cake.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Celebraciones deportivas</h5>
+                    <p class="card-text">¿Tu equipo favorito a ganado la Champions? ¡Compra una tarta personalizada y celébralo con tus amigos!</p>
+                    <a href="" class="btn btn-warning">35€</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+    
+
+</body>
+</html>
